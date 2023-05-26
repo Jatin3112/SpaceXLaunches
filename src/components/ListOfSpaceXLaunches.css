@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    background-color: #fff;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.filters{
+    background-color: #fff;
+}
+.filter-details{
+    background-color: #fff;
+}
+
+
+.title{
+    background-color: #fff;
+}
+.btn{
+    background: transparent;
+    background-color: rgb(190, 248, 184);
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    /* color: rgb(187, 247, 187); */
+    margin: 10px;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(51, 160, 51);
+}
+.developer{
+    text-align: center;
+}
